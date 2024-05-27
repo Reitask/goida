@@ -9,7 +9,7 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def send_welcome(message: types.Message):
-    await bot.send_message(message.chat.id, "СВО Слава Богу 🙏❤️СЛАВА СВО 🙏❤️АНГЕЛА ХРАНИТЕЛЯ СВО 🙏❤️БОЖЕ ХРАНИ СВО 🙏❤️СПАСИБО СВО 🙏🏼❤️🇷🇺 ЧТО ПОДДЕРЖИМ СВО🙏❤️Слава Богу СВО 🙏❤️СЛАВА СВО 🙏❤️ГОЙДА")
+    await bot.send_message(message.chat.id, "Привет, я простой эхо-бот")
 
 async def main():
     await dp.start_polling(bot)
